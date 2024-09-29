@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha Naval</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Batalha Naval</h1>
+        <div>
+            <button id="playVsBot">Jogar Contra o Bot</button>
+            <button id="playMultiplayer">Jogar Multiplayer</button>
+        </div>
+        <div id="gameArea" style="display:none;">
+            <div id="shipArea">
+                <h2>Posicione seus navios</h2>
+                <div id="ships">
+                    <div class="ship" data-size="5" draggable="true">Navio 5</div>
+                    <div class="ship" data-size="4" draggable="true">Navio 4</div>
+                    <div class="ship" data-size="3" draggable="true">Navio 3</div>
+                    <div class="ship" data-size="3" draggable="true">Navio 3</div>
+                    <div class="ship" data-size="2" draggable="true">Navio 2</div>
+                    <div class="ship" data-size="2" draggable="true">Navio 2</div>
+                    <div class="ship" data-size="2" draggable="true">Navio 2</div>
+                    <div class="ship" data-size="1" draggable="true">Navio 1</div>
+                    <div class="ship" data-size="1" draggable="true">Navio 1</div>
+                    <div class="ship" data-size="1" draggable="true">Navio 1</div>
+                </div>
+            </div>
+            <div id="board"></div>
+            <div id="message"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
